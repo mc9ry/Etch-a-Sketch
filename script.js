@@ -16,5 +16,44 @@ for(let x = 0; x<16; x++){
 }
 
 
+const allBoxSelecter = document.querySelectorAll('.childDiv'); 
+console.log(allBoxSelecter); 
+
+
+const button = document.createElement('button'); 
+button.textContent = 'clear';
+containerDiv.appendChild(button); 
+
+allBoxSelecter.forEach(box => {
+    
+    box.addEventListener('mouseenter', () => { 
+     box.classList.add('stick'); 
+
+    }); 
+
+    button.addEventListener('click', () => {
+        box.classList.remove('stick'); 
+
+    }); 
+     
+
+
+
+    
+});
+
+
+
+//just assign another class or unassign the class for clear
+
+
+
+
+
+
+
+
+
+
 
  

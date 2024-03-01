@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     max-width: 832px;
     background-color: red;
+    
 }
 
 .childDiv{
@@ -18,3 +19,8 @@
 .childDiv:hover {
     background-color: black;
 }
+
+.stick {
+    background-color: black;
+}
+
